@@ -1,6 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import defaultStyles from '../../utils/defaultStyles';
+import defaultStyles from '@utils/defaultStyles';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const ChatListingScreen = () => {
   return (
