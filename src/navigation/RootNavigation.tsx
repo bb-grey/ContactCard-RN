@@ -1,11 +1,11 @@
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
-import ChatStack from './ChatStack';
+import HomeTabNavigation from './HomeTabNavigation';
 
 const RootNavigation = () => {
   return (
     <NavigationContainer>
-      <ChatStack />
+      <HomeTabNavigation />
     </NavigationContainer>
   );
 };

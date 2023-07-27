@@ -17,3 +17,11 @@ export type MapStackParamList = {
 export type SettingsStackParamList = {
   SettingsHome: undefined;
 };
+
+export type HomeTabParamList = {
+  ChatStack: undefined;
+  ExploreStack: undefined;
+  MapStack: undefined;
+  CallStack: undefined;
+  SettingsStack: undefined;
+};
